@@ -1,4 +1,6 @@
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/SunOS-Linux/anaconda)
 
 # anaconda
-Anaconda Installer for Sun/OS Linux  || In Development ||
+Anaconda Installer for Sun/OS Linux
+
+## (IN DEVELOPMENT)
