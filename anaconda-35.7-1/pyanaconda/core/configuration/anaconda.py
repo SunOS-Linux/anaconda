@@ -20,7 +20,6 @@
 import os
 
 from pyanaconda.core.configuration.bootloader import BootloaderSection, BootloaderType
-from pyanaconda.core.configuration.license import LicenseSection
 from pyanaconda.core.configuration.network import NetworkSection
 from pyanaconda.core.configuration.payload import PayloadSection
 from pyanaconda.core.configuration.security import SecuritySection
@@ -102,10 +101,7 @@ class AnacondaConfiguration(Configuration):
         self._ui = UserInterfaceSection(
             "User Interface", self.get_parser()
         )
-        self._license = LicenseSection(
-            "License", self.get_parser()
-        )
-
+       
     @property
     def anaconda(self):
         """The Anaconda section."""
@@ -156,10 +152,6 @@ class AnacondaConfiguration(Configuration):
         """The User Interface section."""
         return self._ui
 
-    @property
-    def license(self):
-        """The License section."""
-        return self._license
 
     def set_from_defaults(self):
         """Set the configuration from the default configuration files.
