@@ -1,12 +1,12 @@
 Summary: Graphical system installer
-Name:    anaconda
+Name:    mos-anaconda
 Version: @PACKAGE_VERSION@
 Release: @PACKAGE_RELEASE@%{?dist}
 License: GPLv2+ and MIT
-URL:     http://fedoraproject.org/wiki/Anaconda
+URL:     https://gitlab.com/morales-research-corporation/sunos-linux/anaconda
 
 # To generate Source0 do:
-# git clone https://github.com/rhinstaller/anaconda
+# git clone https://github.com/SunOS-Linux/anaconda
 # git checkout -b archive-branch anaconda-%%{version}-%%{release}
 # ./autogen.sh
 # make dist
