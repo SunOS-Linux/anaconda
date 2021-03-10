@@ -1,5 +1,5 @@
 Summary: Graphical system installer
-Name:    mos-anaconda
+Name:    sun-anaconda
 Version: @PACKAGE_VERSION@
 Release: @PACKAGE_RELEASE@%{?dist}
 License: GPLv2+ and MIT
