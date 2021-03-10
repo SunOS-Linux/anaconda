@@ -1,0 +1,9 @@
+modlist
+moddeps
+genhdlist
+mapshdr
+readmap
+.utils
+.depend
+moduledeps.c
+moduleinfo.c
