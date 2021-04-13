@@ -3,4 +3,4 @@
 # anaconda
 Anaconda Installer for Sun/OS Linux
 
-## (IN DEVELOPMENT)
+(C) 2021 Morales Research Corp
